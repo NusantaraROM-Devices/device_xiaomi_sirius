@@ -161,7 +161,7 @@ TARGET_USES_MKE2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
+TARGET_POWER_SET_FEATURE_LIB := libpower_feature.xiaomi_sdm710
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
