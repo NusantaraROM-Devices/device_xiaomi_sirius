@@ -1007,7 +1007,7 @@ vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 -vendor/app/CneApp/CneApp.apk
 -vendor/app/IWlanService/IWlanService.apk
 -vendor/app/SoterService/SoterService.apk
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert
+-vendor/app/TimeService/TimeService.apk
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
 -framework/WfdCommon.jar
 
