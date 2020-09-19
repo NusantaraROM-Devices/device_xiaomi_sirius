@@ -36,6 +36,8 @@ public class IFAAManagerImpl extends IFAAManagerV4 {
 
     private static volatile IFAAManagerImpl INSTANCE = null;
 
+    private static final String CA_CERT_ALIAS_DELIMITER = " ";
+
     private static final String INTERFACE_DESCRIPTOR = "vendor.xiaomi.hardware.mlipay@1.0::IMlipayService";
     private static final String SERVICE_NAME = "vendor.xiaomi.hardware.mlipay@1.0::IMlipayService";
 
