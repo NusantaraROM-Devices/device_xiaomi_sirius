@@ -213,7 +213,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.use_data_netmgrd=true \
     telephony.lteOnCdmaDevice=1 \
     persist.sys.fflag.override.settings_network_and_internet_v2=true \
-    persist.sys.fflag.override.settings_provider_model=false
+    persist.sys.fflag.override.settings_provider_model=false \
+    persist.vendor.radio.mt_sms_ack=30
 
 # Subsystem Restart
 PRODUCT_PROPERTY_OVERRIDES += \
