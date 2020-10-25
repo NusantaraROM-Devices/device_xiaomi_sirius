@@ -992,10 +992,6 @@ system/lib64/libdiag_system.so:system_ext/lib64/libdiag_system.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm710.so
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
-vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
--vendor/lib/libplatformconfig.so
--vendor/lib64/libplatformconfig.so
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 -product/priv-app/ims/ims.apk:system_ext/priv-app/ims/ims.apk
