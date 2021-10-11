@@ -211,7 +211,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.telephony.default_network=22,22 \
     ro.vendor.use_data_netmgrd=true \
-    telephony.lteOnCdmaDevice=1
+    telephony.lteOnCdmaDevice=1 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true \
+    persist.sys.fflag.override.settings_provider_model=false
 
 # Subsystem Restart
 PRODUCT_PROPERTY_OVERRIDES += \
