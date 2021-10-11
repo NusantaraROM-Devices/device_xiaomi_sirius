@@ -125,6 +125,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor \
     android.hardware.bluetooth.audio@2.1-impl \
     audio.bluetooth.default \
     libbthost_if \
@@ -194,6 +195,7 @@ PRODUCT_PACKAGES += \
     libgnsspps \
 
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor \
     android.hardware.gnss@2.1-impl-qti \
     android.hardware.gnss@2.1-service-qti \
@@ -261,7 +263,8 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
     android.hardware.keymaster@4.0.vendor \
     android.hardware.keymaster@4.0-impl \
-    android.hardware.keymaster@4.0-service
+    android.hardware.keymaster@4.0-service \
+    android.hardware.keymaster@4.1.vendor
 
 # Light
 PRODUCT_PACKAGES += \
@@ -331,8 +334,10 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.config@1.3.vendor \
     android.hardware.radio@1.4.vendor \
     android.hardware.radio@1.5.vendor \
+    android.hardware.radio@1.6.vendor \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor
 
