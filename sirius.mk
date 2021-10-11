@@ -165,6 +165,8 @@ PRODUCT_PACKAGES += \
     gralloc.sdm710 \
     hwcomposer.sdm710 \
     libtinyxml \
+    tinyxml2 \
+    libxml2  \
     libvulkan \
     memtrack.sdm710 \
     vendor.display.config@1.7 \
