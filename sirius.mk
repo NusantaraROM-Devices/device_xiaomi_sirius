@@ -182,6 +182,7 @@ PRODUCT_PACKAGES += \
 
 $ Gatekeeper
 PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0 \
     android.hardware.gatekeeper@1.0.vendor
 
 # GPS
@@ -303,6 +304,7 @@ PRODUCT_PACKAGES += \
 
 # Neural Network
 PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3 \
     android.hardware.neuralnetworks@1.3.vendor
 
 # Power
