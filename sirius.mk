@@ -249,11 +249,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sirius
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.mokee.livedisplay@2.0-service-sdm \
-    vendor.mokee.livedisplay@2.0-service.xiaomi_sirius
-
 # Media
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
