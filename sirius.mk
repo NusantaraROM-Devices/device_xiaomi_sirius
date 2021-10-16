@@ -171,7 +171,8 @@ PRODUCT_PACKAGES += \
     memtrack.sdm710 \
     vendor.display.config@1.7 \
     vendor.qti.hardware.display.allocator@1.0-service \
-    android.frameworks.displayservice@1.0.vendor
+    android.frameworks.displayservice@1.0.vendor \
+    libplatformconfig
 
 # DRM
 PRODUCT_PACKAGES += \
