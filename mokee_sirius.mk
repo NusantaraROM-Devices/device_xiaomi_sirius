@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/xiaomi/sirius/sirius.mk)
+$(call inherit-product, device/xiaomi/sirius/device.mk)
 
 # Inherit some common Mokee stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
