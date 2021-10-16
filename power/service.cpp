@@ -34,9 +34,9 @@
 #include <hardware/power.h>
 #include "Power.h"
 
+using android::OK;
 using android::sp;
 using android::status_t;
-using android::OK;
 
 // libhwbinder:
 using android::hardware::configureRpcThreadpool;
@@ -46,7 +46,8 @@ using android::hardware::joinRpcThreadpool;
 using android::hardware::power::V1_2::IPower;
 using android::hardware::power::V1_2::implementation::Power;
 
-int main() {
+int main()
+{
 
     status_t status;
     android::sp<IPower> service = nullptr;
@@ -54,7 +55,8 @@ int main() {
     ALOGI("Power HAL Service 1.2 is starting.");
 
     service = new Power();
-    if (service == nullptr) {
+    if (service == nullptr)
+    {
         ALOGE("Can not create an instance of Power HAL interface.");
 
         goto shutdown;
@@ -63,7 +65,8 @@ int main() {
     configureRpcThreadpool(1, true /*callerWillJoin*/);
 
     status = service->registerAsService();
-    if (status != OK) {
+    if (status != OK)
+    {
         ALOGE("Could not register service for Power HAL(%d).", status);
         goto shutdown;
     }
@@ -78,4 +81,3 @@ shutdown:
     ALOGE("Power Service is shutting down");
     return 1;
 }
-

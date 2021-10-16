@@ -13,7 +13,6 @@ LOCAL_SHARED_LIBRARIES := liblog \
                           libxml2 \
                           libbase \
                           libhidlbase \
-                          libhidltransport \
                           libutils \
                           android.hardware.power@1.2
 LOCAL_HEADER_LIBRARIES += libutils_headers
