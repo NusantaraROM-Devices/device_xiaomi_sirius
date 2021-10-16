@@ -7,6 +7,7 @@
 $(call inherit-product, device/xiaomi/sirius/sirius.mk)
 
 # Inherit some common Mokee stuff.
+TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
