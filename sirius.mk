@@ -180,7 +180,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.4-service.clearkey
 
-$ Gatekeeper
+# Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0 \
     android.hardware.gatekeeper@1.0.vendor
