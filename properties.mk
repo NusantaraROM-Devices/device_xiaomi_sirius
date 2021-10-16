@@ -116,6 +116,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dpm.loglevel=0 \
     persist.vendor.dpm.nsrm.bkg.evt=3955
 
+# Debugging
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1 \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1
+
 # Display post-processing
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.cabl=0 \
