@@ -6,12 +6,13 @@
 
 $(call inherit-product, device/xiaomi/sirius/device.mk)
 
-# Inherit some common Mokee stuff.
+# Inherit some common Nusantara stuff.
+NAD_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := mokee_sirius
+PRODUCT_NAME := nad_sirius
 PRODUCT_DEVICE := sirius
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 SE
