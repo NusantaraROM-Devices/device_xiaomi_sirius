@@ -9,6 +9,8 @@ $(call inherit-product, device/xiaomi/sirius/device.mk)
 # Inherit some common Nusantara stuff.
 NAD_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
