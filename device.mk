@@ -329,8 +329,11 @@ $(call inherit-product, external/json-c/Android.configure.mk)
 PRODUCT_PACKAGES += \
     libjson \
     librmnetctl \
+    android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio@1.4.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor
 
 # RCS
