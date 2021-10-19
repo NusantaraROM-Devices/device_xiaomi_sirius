@@ -209,7 +209,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Treble
 BOARD_VNDK_VERSION := current
-PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

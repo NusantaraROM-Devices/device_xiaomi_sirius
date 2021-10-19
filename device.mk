@@ -406,6 +406,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk-sp
 
+PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
+
 # VR
 PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-impl \
